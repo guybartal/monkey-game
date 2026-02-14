@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "typecheck": "npx --yes tsc --noEmit",
-    "build": "vite build"
+    "build": "tsc --noEmit && vite build"
   },
   "dependencies": {
     "phaser": "^3.90.0"
